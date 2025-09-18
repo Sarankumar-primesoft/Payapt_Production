@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-18T15:03:52 IST" name="Suite" finished-at="2025-09-18T15:05:09 IST" duration-ms="76861">
+    <groups>
+    </groups>
+    <test started-at="2025-09-18T15:03:52 IST" name="Test" finished-at="2025-09-18T15:05:09 IST" duration-ms="76861">
+      <class name="IndividualFlows.TCH_ExecutionsSummary">
+        <test-method signature="TCHBatchExecutionSummaryResults()[pri:0, instance:IndividualFlows.TCH_ExecutionsSummary@5c7bfdc1]" started-at="2025-09-18T15:03:56 IST" name="TCHBatchExecutionSummaryResults" finished-at="2025-09-18T15:05:09 IST" duration-ms="73311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCHBatchExecutionSummaryResults -->
+      </class> <!-- IndividualFlows.TCH_ExecutionsSummary -->
+      <class name="IndividualFlows.TCHBatchTest">
+        <test-method signature="Batchcreation()[pri:0, instance:IndividualFlows.TCHBatchTest@5c86a017]" started-at="2025-09-18T15:03:52 IST" name="Batchcreation" finished-at="2025-09-18T15:03:56 IST" duration-ms="3262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Batchcreation -->
+      </class> <!-- IndividualFlows.TCHBatchTest -->
+      <class name="com.test.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.LoginTest@28cda624]" started-at="2025-09-18T15:03:46 IST" name="setup" finished-at="2025-09-18T15:03:52 IST" duration-ms="6300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Login()[pri:0, instance:com.test.LoginTest@28cda624]" started-at="2025-09-18T15:03:52 IST" name="Login" finished-at="2025-09-18T15:03:52 IST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.LoginTest@28cda624]" started-at="2025-09-18T15:05:09 IST" name="tearDown" finished-at="2025-09-18T15:05:12 IST" duration-ms="2603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

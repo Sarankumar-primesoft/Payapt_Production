@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.listeners.AnnotationListerners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="IndividualFlows.Reports_RetrivalRequestTCH">
+        <methods>
+          <include name="tearDown"/>
+          <include name="RetrivalRequestTest_TCH"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- IndividualFlows.Reports_RetrivalRequestTCH -->
+      <class name="IndividualFlows.Reports_AccountReportingTCH">
+        <methods>
+          <include name="tearDown"/>
+          <include name="AccountReportingTest_RTP"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- IndividualFlows.Reports_AccountReportingTCH -->
+      <class name="IndividualFlows.TCH_ExecutionsSummary">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="TCHBatchExecutionSummaryResults"/>
+        </methods>
+      </class> <!-- IndividualFlows.TCH_ExecutionsSummary -->
+      <class name="IndividualFlows.Reports_ParticipantFileTCH">
+        <methods>
+          <include name="tearDown"/>
+          <include name="ParticipantFile_TCH"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- IndividualFlows.Reports_ParticipantFileTCH -->
+      <class name="IndividualFlows.Reports_BroadcastMessagesTCH">
+        <methods>
+          <include name="tearDown"/>
+          <include name="BroadcastMessages_TCH_PB"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- IndividualFlows.Reports_BroadcastMessagesTCH -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
