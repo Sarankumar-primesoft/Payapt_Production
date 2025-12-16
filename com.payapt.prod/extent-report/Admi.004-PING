@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?><urn:FedNowOutgoing xmlns:urn="urn:fednow:outgoing:v001"
                 xmlns:h="urn:iso:std:iso:20022:tech:xsd:head.001.001.02"
-                xmlns:p="urn:iso:std:iso:20022:tech:xsd:admi.011.001.01"><urn:FedNowOutgoingMessage><urn:FedNowSystemResponse><h:AppHdr xmlns:h="urn:iso:std:iso:20022:tech:xsd:head.001.001.02"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:head.001.001.02 BusinessApplicationHeader_head_001_001_02_20210617.xsd"><h:Fr>
+                xmlns:p="urn:iso:std:iso:20022:tech:xsd:admi.004.001.02"><urn:FedNowOutgoingMessage><urn:FedNowBroadcast><h:AppHdr xmlns="urn:iso:std:iso:20022:tech:xsd:head.001.001.02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:head.001.001.02 BusinessApplicationHeader_head_001_001_02_20210617.xsd"><h:Fr>
                     <h:FIId>
                         <h:FinInstnId>
                             <h:ClrSysMmbId>
@@ -18,19 +18,19 @@
                         </h:FinInstnId>
                     </h:FIId>
                 </h:To>
-                <h:BizMsgIdr>20250818021150706TutcmhN4C37857559</h:BizMsgIdr>
-                <h:MsgDefIdr>admi.011.001.01</h:MsgDefIdr>
+                <h:BizMsgIdr>20251111021150706HfhDpskDi61699714</h:BizMsgIdr>
+                <h:MsgDefIdr>admi.004.001.02</h:MsgDefIdr>
                 <h:MktPrctc>
                     <h:Regy>www2.swift.com/mystandards/#/group/Federal_Reserve_Financial_Services/FedNow_Service</h:Regy>
                     <h:Id>frb.fednow.01</h:Id>
                 </h:MktPrctc>
-                <h:CreDt>2025-08-18T07:51:34-04:00</h:CreDt>
-                <h:BizPrcgDt>2025-08-18T00:00:00-04:00</h:BizPrcgDt>
-            </h:AppHdr><p:Document xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:admi.011.001.01 FedNow_Service_Release_1_FedNowSystemResponse_admi_011_001_01_20230310_0451_iso15enriched.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="urn:iso:std:iso:20022:tech:xsd:admi.011.001.01"><p:SysEvtAck>
-                    <p:MsgId>20250818021150706hXzJAKhsI78217660</p:MsgId>
-                    <p:AckDtls>
-                        <p:EvtCd>PING</p:EvtCd>
-                        <p:EvtTm>2025-08-18T07:51:34-04:00</p:EvtTm>
-                    </p:AckDtls>
-                </p:SysEvtAck>
-            </p:Document></urn:FedNowSystemResponse></urn:FedNowOutgoingMessage></urn:FedNowOutgoing>
+                <h:CreDt>2025-11-11T07:00:00-05:00</h:CreDt>
+                <h:BizPrcgDt>2025-11-11T00:00:00-05:00</h:BizPrcgDt>
+            </h:AppHdr><p:Document xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:admi.004.001.02 FedNowBroadcast_admi.004.001.02.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="urn:iso:std:iso:20022:tech:xsd:admi.004.001.02"><p:SysEvtNtfctn>
+                    <p:EvtInf>
+                        <p:EvtCd>ADHC</p:EvtCd>
+                        <p:EvtDesc>System online. Monitoring active payment rail: FedNow</p:EvtDesc>
+                        <p:EvtTm>2025-11-11T07:00:00-05:00</p:EvtTm>
+                    </p:EvtInf>
+                </p:SysEvtNtfctn>
+            </p:Document></urn:FedNowBroadcast></urn:FedNowOutgoingMessage></urn:FedNowOutgoing>

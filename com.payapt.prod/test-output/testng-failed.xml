@@ -4,8 +4,33 @@
   <listeners>
     <listener class-name="com.listeners.AnnotationListerners"/>
   </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="IndividualFlows.Fednow_ExecutionsSummary">
+        <methods>
+          <include name="tearDown"/>
+          <include name="FednowBatchExecutionSummaryResults"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- IndividualFlows.Fednow_ExecutionsSummary -->
+    </classes>
+  </test> <!-- Test(failed) -->
   <test thread-count="5" name="fedwiretest(failed)">
     <classes>
+      <class name="IndividualFlows.Fedwire_ExecutionsSummaryTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="FedwireBatchExecutionSummaryResults"/>
+        </methods>
+      </class> <!-- IndividualFlows.Fedwire_ExecutionsSummaryTest -->
+      <class name="IndividualFlows.FedwireBatchTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Batchcreation"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- IndividualFlows.FedwireBatchTest -->
       <class name="IndividualFlows.Reports_RetrivalRequestFedwire">
         <methods>
           <include name="tearDown"/>
@@ -25,6 +50,7 @@
           <include name="tearDown"/>
           <include name="setup"/>
           <include name="BroadcastMessages_Fedwire_FB"/>
+          <include name="BroadcastMessages_Fedwire_PB"/>
         </methods>
       </class> <!-- IndividualFlows.Reports_BroadcastMessagesFedwire -->
       <class name="com.test.LoginTest">
@@ -34,6 +60,13 @@
           <include name="Login"/>
         </methods>
       </class> <!-- com.test.LoginTest -->
+      <class name="IndividualFlows.Reports_ParticipantFileFedwire">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="ParticipantFile_Fedwire"/>
+        </methods>
+      </class> <!-- IndividualFlows.Reports_ParticipantFileFedwire -->
     </classes>
   </test> <!-- fedwiretest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

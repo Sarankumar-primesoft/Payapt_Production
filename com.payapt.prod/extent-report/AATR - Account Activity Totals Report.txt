@@ -18,33 +18,33 @@
                         </h:FinInstnId>
                     </h:FIId>
                 </h:To>
-                <h:BizMsgIdr>20250818011054444oJeN5G6pD70599515</h:BizMsgIdr>
+                <h:BizMsgIdr>20251114011054444S5vYsRz4F08522709</h:BizMsgIdr>
                 <h:MsgDefIdr>camt.052.001.08</h:MsgDefIdr>
                 <h:MktPrctc>
                     <h:Regy>www2.swift.com/mystandards/#/group/Federal_Reserve_Financial_Services/FedNow_Service</h:Regy>
                     <h:Id>frb.fednow.01</h:Id>
                 </h:MktPrctc>
-                <h:CreDt>2025-08-18T07:50:32-04:00</h:CreDt>
-                <h:BizPrcgDt>2025-08-18T00:00:00-04:00</h:BizPrcgDt>
+                <h:CreDt>2025-11-14T00:02:22-05:00</h:CreDt>
+                <h:BizPrcgDt>2025-11-14T00:00:00-05:00</h:BizPrcgDt>
             </h:AppHdr><p:Document xmlns:p="urn:iso:std:iso:20022:tech:xsd:camt.052.001.08" 
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:camt.052.001.08 schema.xsd"><p:BkToCstmrAcctRpt>
                     <p:GrpHdr>
                         <p:MsgId>AATR</p:MsgId>
-                        <p:CreDtTm>2025-08-18T07:50:32-04:00</p:CreDtTm>
+                        <p:CreDtTm>2025-11-14T00:02:22-05:00</p:CreDtTm>
                         <p:MsgPgntn>
                             <p:PgNb>1</p:PgNb>
                             <p:LastPgInd>true</p:LastPgInd>
                         </p:MsgPgntn>
                         <p:OrgnlBizQry>
-                            <p:MsgId>20250818011054444vaX76GucI21741223</p:MsgId>
+                            <p:MsgId>20251114011054444WbmpkCl0T10180456</p:MsgId>
                             <p:MsgNmId>camt.060.001.05</p:MsgNmId>
-                            <p:CreDtTm>2025-08-18T07:50:32-04:00</p:CreDtTm>
+                            <p:CreDtTm>2025-11-14T00:02:21-05:00</p:CreDtTm>
                         </p:OrgnlBizQry>
                     </p:GrpHdr>
                     <p:Rpt>
                         <p:Id>EDAY</p:Id>
-                        <p:CreDtTm>2025-08-18T07:50:32-04:00</p:CreDtTm>
+                        <p:CreDtTm>2025-11-14T00:02:22-05:00</p:CreDtTm>
                         <p:Acct>
                             <p:Id>
                                 <p:Othr>
@@ -54,12 +54,12 @@
                         </p:Acct>
                         <p:TxsSummry>
                             <p:TtlCdtNtries>
-                                <p:NbOfNtries>0</p:NbOfNtries>
-                                <p:Sum>0.0</p:Sum>
+                                <p:NbOfNtries>53</p:NbOfNtries>
+                                <p:Sum>1256.5599999999995</p:Sum>
                             </p:TtlCdtNtries>
                             <p:TtlDbtNtries>
-                                <p:NbOfNtries>0</p:NbOfNtries>
-                                <p:Sum>0.0</p:Sum>
+                                <p:NbOfNtries>59</p:NbOfNtries>
+                                <p:Sum>1380.1799999999994</p:Sum>
                             </p:TtlDbtNtries>
                             <p:TtlNtriesPerBkTxCd>
                                 <p:NbOfNtries>0</p:NbOfNtries>
@@ -70,7 +70,7 @@
                                 </p:BkTxCd>
                             </p:TtlNtriesPerBkTxCd>
                             <p:TtlNtriesPerBkTxCd>
-                                <p:NbOfNtries>0</p:NbOfNtries>
+                                <p:NbOfNtries>14</p:NbOfNtries>
                                 <p:BkTxCd>
                                     <p:Prtry>
                                         <p:Cd>RJTS</p:Cd>
@@ -86,7 +86,7 @@
                                 </p:BkTxCd>
                             </p:TtlNtriesPerBkTxCd>
                             <p:TtlNtriesPerBkTxCd>
-                                <p:NbOfNtries>0</p:NbOfNtries>
+                                <p:NbOfNtries>89</p:NbOfNtries>
                                 <p:BkTxCd>
                                     <p:Prtry>
                                         <p:Cd>SENT</p:Cd>
